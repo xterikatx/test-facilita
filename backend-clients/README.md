@@ -10,13 +10,14 @@ Antes de iniciar a API, siga estas etapas para configurar o ambiente de desenvol
 
 Certifique-se de ter o PostgreSQL instalado em seu sistema. Você pode baixar e instalar o PostgreSQL em https://www.postgresql.org/download/.
 
+-  Criar o banco de dados 
+    > ```CREATE DATABASE facilitadb;```
 
-
+<br>
 
 2. Configuração do Banco de Dados
 
 No arquivo ```knexfile.js```, você encontrará as configurações do banco de dados. Certifique-se de que essas configurações correspondam à sua instância do PostgreSQL. Você pode ajustar as configurações conforme necessário para refletir o nome do usuário, a senha, o host, a porta e o nome do banco de dados que você está usando.
-
 
 3. Execução de Migrações e Seeds
 
